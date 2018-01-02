@@ -1,8 +1,8 @@
 
 $( document ).ready(function() {
     // console.log( "ready!" );
-    $(".sp-js").click (function(e){
+    $(".sp-js .sp__title").click (function(e){
         e.preventDefault();
-        $(this).find('.sp-content').slideToggle();
+        $(this).find('.sp__content').slideToggle();
     });
 });
