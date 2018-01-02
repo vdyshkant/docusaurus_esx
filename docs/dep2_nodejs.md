@@ -133,11 +133,13 @@ src#1 https://github.com/creationix/nvm)
 
 
 <div class="sp sp-js">
-  <div class="spoiler">
-    <div class="icon-left"></div>
-    <div class="icon-right"></div>
+  <div class="sp__title sp-js-master">
+    <div class="spoiler">
+      <div class="icon-left"></div>
+      <div class="icon-right"></div>
+    </div>
+    yarn
   </div>
-  <div class="sp__title sp-js-master">yarn</div>
   <div class="sp__content sp-js-slave">
 
 [yarn](https://yarnpkg.com) - менеджер пакетов от facebook. Работает ощутимо быстрее встроенного в nodejs npm.
