@@ -4,7 +4,13 @@ title: node.js [npm, nvm, yarn]
 ---
 
 <div class="sp sp-js">
-  <div class="sp__title sp-js-master">Prerequisites</div>
+  <div class="sp__title sp-js-master">
+    <div class="burgSpoiler">
+      <div class="icon-left"></div>
+      <div class="icon-right"></div>
+    </div>
+    Prerequisites
+  </div>
   <div class="sp__content sp-js-slave">
 
 Проверить, установлен ли *git*, установлен ли *curl*
@@ -24,9 +30,16 @@ sudo aptitude update && sudo aptitude -y install --add-user-tag 'git__tag' git
   </div>
 </div>
 
+***
 
 <div class="sp sp-js">
-  <div class="sp__title sp-js-master">определения понятий</div>
+  <div class="sp__title sp-js-master">
+    <div class="burgSpoiler">
+      <div class="icon-left"></div>
+      <div class="icon-right"></div>
+    </div>
+    определения понятий
+  </div>
   <div class="sp__content sp-js-slave">
 
 [npm](npmjs.com) (Node.js Package Manager) — [менеджер пакетов /wiki/](https://ru.wikipedia.org/wiki/NPM), входящий в состав Node.js.
@@ -40,7 +53,13 @@ sudo aptitude update && sudo aptitude -y install --add-user-tag 'git__tag' git
 
 
 <div class="sp sp-js">
-  <div class="sp__title sp-js-master">nvm</div>
+  <div class="sp__title sp-js-master">
+    <div class="burgSpoiler">
+      <div class="icon-left"></div>
+      <div class="icon-right"></div>
+    </div>
+    nvm
+  </div>
   <div class="sp__content sp-js-slave">
 
 [Node Version Manager](https://github.com/creationix/nvm#install-script) - менеджер версий nodejs.
@@ -52,7 +71,7 @@ sudo aptitude update && sudo aptitude -y install --add-user-tag 'git__tag' git
 Close and reopen your terminal to start using NVM
 
 <div class="sp__inner sp-js">
-  <div class="sp__title sp-js-master"> check if NVM works </div>
+  <div class="sp__title sp-js-master blink"> check if NVM works </div>
   <div class="sp__content sp-js-slave">
 
 ```
@@ -65,7 +84,7 @@ nvm --version
 
 
 <div class="sp__inner sp-js">
-  <div class="sp__title sp-js-master"> switch between diff versions </div>
+  <div class="sp__title sp-js-master blink">switch between diff versions </div>
   <div class="sp__content sp-js-slave">
 
 #### We also can **switch between diff versions** of node. For this lets install another version of nodejs
@@ -87,7 +106,7 @@ nvm use 0.12
 
 
 <div class="sp__inner sp-js">
-  <div class="sp__title sp-js-master"> misc </div>
+  <div class="sp__title sp-js-master blink"> misc </div>
   <div class="sp__content sp-js-slave">
 
 
@@ -134,7 +153,7 @@ src#1 https://github.com/creationix/nvm)
 
 <div class="sp sp-js">
   <div class="sp__title sp-js-master">
-    <div class="spoiler">
+    <div class="burgSpoiler">
       <div class="icon-left"></div>
       <div class="icon-right"></div>
     </div>
