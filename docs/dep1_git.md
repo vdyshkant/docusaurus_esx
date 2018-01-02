@@ -3,7 +3,11 @@ id: dep1_git
 title: git vcs
 ---
 
+### Please follow below steps:
 
+<div class="sp sp-js">
+  <div class="sp__title">Prerequisites</div>
+  <div class="sp__content">
 Если не установлен менеджер пакетов aptitude:
 
 
@@ -19,8 +23,12 @@ sudo apt-get install aptitude -y
 sudo aptitude update
 ```
 
+  </div>
+</div>
 
-### Собственно установка Git:
+
+
+### Git installation:
 
 
 ```
