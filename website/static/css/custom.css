@@ -1,0 +1,41 @@
+/* your custom css */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+.mainContainer .wrapper p {
+  /* font-family: "PT Sans"; */
+  font-size: 16px;
+  line-height: 1.6;
+  color: #69656e;
+}
+
+.sp__title {
+  padding: 1em 2em 1em 1.5em;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.sp__title:hover {
+    cursor: pointer;
+    /* background: #FF5D6E; //red*/
+    background: #A3DE83;
+}
+
+.sp__content {
+    display: none;
+    outline: 2px dashed #A3DE83;
+    outline-offset: -2px;
+}

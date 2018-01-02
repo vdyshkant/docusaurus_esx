@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "dependencies": ["doc1", "dep1_git", "dep2_nodejs", "dep3_yarn"],
+    "bundlers": ["bund1_gulp1", "bund2_w2", "bund3_w4", "bund4_react1", "bund5_react2", "bund6_reactCra"],
+    "ESX [Interview FAQs]": ["int1_modules", "int2_closures", "int3_bind", "int4_strict"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
