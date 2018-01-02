@@ -4,8 +4,8 @@ title: node.js [npm, nvm, yarn]
 ---
 
 <div class="sp sp-js">
-  <div class="sp__title">Prerequisites</div>
-  <div class="sp__content">
+  <div class="sp__title sp-js-master">Prerequisites</div>
+  <div class="sp__content sp-js-slave">
 
 Проверить, установлен ли *git*, установлен ли *curl*
 
@@ -26,23 +26,12 @@ sudo aptitude update && sudo aptitude -y install --add-user-tag 'git__tag' git
 
 
 <div class="sp sp-js">
-  <div class="sp__title">определения понятий</div>
-  <div class="sp__content">
-
-
-
+  <div class="sp__title sp-js-master">определения понятий</div>
+  <div class="sp__content sp-js-slave">
 
 [npm](npmjs.com) (Node.js Package Manager) — [менеджер пакетов /wiki/](https://ru.wikipedia.org/wiki/NPM), входящий в состав Node.js.
 
-[yarn](https://yarnpkg.com) - менеджер пакетов от facebook. Работает ощутимо быстрее встроенного в nodejs npm.
 
-yarn install:
-0) install curl
-1) install node.js https://github.com/creationix/nvm#install-script
-nvm --version
-nvm install --lts
-https://github.com/yarnpkg/yarn/releases/tag/v1.3.2  ставим оттуда деб пакет
-2) install yarn
 
 
   </div>
@@ -51,8 +40,8 @@ https://github.com/yarnpkg/yarn/releases/tag/v1.3.2  ставим оттуда �
 
 
 <div class="sp sp-js">
-  <div class="sp__title">nvm</div>
-  <div class="sp__content">
+  <div class="sp__title sp-js-master">nvm</div>
+  <div class="sp__content sp-js-slave">
 
 [Node Version Manager](https://github.com/creationix/nvm#install-script) - менеджер версий nodejs.
 
@@ -62,12 +51,22 @@ https://github.com/yarnpkg/yarn/releases/tag/v1.3.2  ставим оттуда �
 
 Close and reopen your terminal to start using NVM
 
-check if NVM works:
+<div class="sp__inner sp-js">
+  <div class="sp__title sp-js-master"> check if NVM works </div>
+  <div class="sp__content sp-js-slave">
+
 ```
 nvm --version
 ```
 ![check if NVM works](/test-site/img/nvm__check.gif)
 
+  </div>
+</div>
+
+
+<div class="sp__inner sp-js">
+  <div class="sp__title sp-js-master"> switch between diff versions </div>
+  <div class="sp__content sp-js-slave">
 
 #### We also can **switch between diff versions** of node. For this lets install another version of nodejs
 ```
@@ -82,6 +81,14 @@ If we want to use, for example, 0.12.22 node, just type:
 ```
 nvm use 0.12
 ```
+
+  </div>
+</div>
+
+
+<div class="sp__inner sp-js">
+  <div class="sp__title sp-js-master"> misc </div>
+  <div class="sp__content sp-js-slave">
 
 
 Before closing the terminal, we ought to set the latest version of nodejs as the default version.
@@ -112,6 +119,11 @@ If you want to __check how many versions are available for install__ in the remo
 nvm ls-remote
 ```
 
+  </div>
+</div>
+
+
+
 
 src#1 [keymetrics.io](https://keymetrics.io/2015/02/03/installing-node-js-and-io-js-with-nvm/)
 src#1 https://github.com/creationix/nvm)
@@ -119,34 +131,27 @@ src#1 https://github.com/creationix/nvm)
   </div>
 </div>
 
+
 <div class="sp sp-js">
-  <div class="sp__title">nodejs</div>
-  <div class="sp__content">
-
-
+  <div class="spoiler">
+    <div class="icon-left"></div>
+    <div class="icon-right"></div>
   </div>
-</div>
-
-<div class="sp sp-js">
-  <div class="sp__title">yarn</div>
-  <div class="sp__content">
-
-
-  </div>
-</div>
-
-<div class="sp sp-js">
   <div class="sp__title sp-js-master">yarn</div>
-  <div class="sp__content">
+  <div class="sp__content sp-js-slave">
 
+[yarn](https://yarnpkg.com) - менеджер пакетов от facebook. Работает ощутимо быстрее встроенного в nodejs npm.
+
+yarn install:
+0) install curl
+1) install node.js https://github.com/creationix/nvm#install-script
+nvm --version
+nvm install --lts
+https://github.com/yarnpkg/yarn/releases/tag/v1.3.2  ставим оттуда деб пакет
+2) install yarn
 
   </div>
 </div>
-
-
-
-
-
 
 
 

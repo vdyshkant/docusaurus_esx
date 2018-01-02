@@ -5,4 +5,11 @@ $( document ).ready(function() {
         e.preventDefault();
         $(this).next().slideToggle();
     });
+
+
+    // nav navToggle
+    $(".spoiler").click (function(){
+      $(this).toggleClass("open");
+      $(this).siblings('.sp-js-slave').slideToggle();
+    });
 });
