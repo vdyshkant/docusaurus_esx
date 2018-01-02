@@ -13,7 +13,9 @@ title: node.js [npm, nvm, yarn]
   </div>
   <div class="sp__content sp-js-slave">
 
-Проверить, установлен ли *git*, установлен ли *curl*
+[npm](npmjs.com) (Node.js Package Manager) — [менеджер пакетов /wiki/](https://ru.wikipedia.org/wiki/NPM), входящий в состав Node.js.
+
+Сначала нужно проверить, установлен ли *git*, установлен ли *curl*
 
 Если не установлены, ставим:
 
@@ -27,30 +29,11 @@ sudo aptitude update && sudo aptitude -y install --add-user-tag 'curl__tag' curl
 sudo aptitude update && sudo aptitude -y install --add-user-tag 'git__tag' git
 ```
 
+
   </div>
 </div>
 
 ***
-
-<div class="sp sp-js">
-  <div class="sp__title sp-js-master">
-    <div class="burgSpoiler">
-      <div class="icon-left"></div>
-      <div class="icon-right"></div>
-    </div>
-    определения понятий
-  </div>
-  <div class="sp__content sp-js-slave">
-
-[npm](npmjs.com) (Node.js Package Manager) — [менеджер пакетов /wiki/](https://ru.wikipedia.org/wiki/NPM), входящий в состав Node.js.
-
-
-
-
-  </div>
-</div>
-
-
 
 <div class="sp sp-js">
   <div class="sp__title sp-js-master">
